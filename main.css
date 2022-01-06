@@ -59,6 +59,9 @@ header{
 #tribute-info p{
   font-size: 25px;
 }
+#tribute-info h2{
+  font-size: 30px;
+}
 .principal{
   display: flex;
   flex-direction: row;
@@ -92,5 +95,10 @@ figcaption{
     min-width: none;
     min-height: none;
   }
-
+  #tribute-info p{
+    font-size: 18px;
+  }
+  #tribute-info h2{
+    font-size: 23px;
+  }
 }
