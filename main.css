@@ -35,14 +35,17 @@ header{
     flex-direction: column-reverse;
     justify-content: center;
   }
-
+script{
+  position: absolute;
+}
 #img-div{
     width:100%;
   }
 
 #image{
-    width: 100%;
+    max-width: 100%;  
     align-self: center;
+    display: block;
   }
 
 #tribute-info{
@@ -55,12 +58,26 @@ header{
 }
 #tribute-info p, #tribute-info h2{
   margin-left: 20px;
+  font-family: 'Cinzel', serif;
 }
 #tribute-info p{
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+#tribute-info p a{
+  text-decoration: none;
+  color: #FFF;
+}
+#tribute-info p a:hover{
+  text-decoration: underline;
 }
 #tribute-info h2{
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 900;
+  color: #FFF;
+}
+#tribute-info h2:hover{
+  color: var(--pink);
 }
 .principal{
   display: flex;
@@ -100,5 +117,8 @@ figcaption{
   }
   #tribute-info h2{
     font-size: 23px;
+  }
+  #tribute-info p, #tribute-info h2{
+    margin-left: 10px;
   }
 }
